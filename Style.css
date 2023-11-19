@@ -1,0 +1,25 @@
+/* LAST RULE */
+/* p{
+    color: red;
+}
+
+p{
+    color: green;
+}
+
+p{
+    color: blue;
+} */
+
+/*  SPECIFICITY */
+*{
+    color: red; !important;
+}
+
+p{
+    color: green;
+}
+
+p#intro{
+    color: blue;
+}
